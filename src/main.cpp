@@ -13,6 +13,11 @@
 int main() {
 	MS_Board board = MS_Board();
 	board.displayBoard();
+	board.playGame(0,0);
+	board.playGame(1,0);
+	board.playGame(0,9);
+	board.playGame(3,4);
+
 
 
 	return 0;
