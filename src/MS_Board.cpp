@@ -125,7 +125,8 @@ void MS_Board::flagSpot(int row, int col){
 	}
 	else{
 		if(numFlags >= 10){
-			std::cout << "10 cells are already flagged, you must remove at least one flag before adding more.\m";
+			std::cout << "10 cells are already flagged, you must remove at least one flag before adding more.\n";
+			return;
 		}
 		++numFlags;
 		flagged[row][col] = true;
