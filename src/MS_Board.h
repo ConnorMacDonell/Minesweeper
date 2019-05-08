@@ -18,7 +18,7 @@
 class MS_Board{
 public:
 	MS_Board();
-	void playGame(); //TODO
+	void playGame();
 private:
 	std::vector<std::vector<int> > playSpace;
 	std::vector<std::vector<bool> > flagged;
